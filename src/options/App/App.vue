@@ -1,7 +1,13 @@
+<!--
+ * @Description: 
+ * @Author: qingyang
+ * @Date: 2021-04-14 15:59:42
+ * @LastEditors: qingyang
+ * @LastEditTime: 2021-04-15 16:58:27
+-->
 <template>
   <div class="main_app">
     <h1>Hello Options</h1>
-        <el-button type="primary" @click="btnClick">按钮</el-button>
 
   </div>
 </template>
@@ -12,7 +18,7 @@ export default {
    methods: {
     btnClick() {
      this.$message('按下按钮')
-    }
+    },
   }
 }
 </script>
