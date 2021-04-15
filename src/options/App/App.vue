@@ -1,12 +1,19 @@
 <template>
   <div class="main_app">
     <h1>Hello Options</h1>
+        <el-button type="primary" @click="btnClick">按钮</el-button>
+
   </div>
 </template>
 
 <script>
 export default {
   name: 'app',
+   methods: {
+    btnClick() {
+     this.$message('按下按钮')
+    }
+  }
 }
 </script>
 

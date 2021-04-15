@@ -1,14 +1,20 @@
+<!--
+ * @Description: 
+ * @Author: qingyang
+ * @Date: 2021-04-14 15:59:42
+ * @LastEditors: qingyang
+ * @LastEditTime: 2021-04-15 11:26:03
+-->
 <template>
   <div class="main_app">
     <h1>Hello popup</h1>
-    <el-button type="primary">按钮</el-button>
     <img src="@/assets/logo.png" alt="">
   </div>
 </template>
 
 <script>
 export default {
-  name: 'app',
+  name: 'app'
 }
 </script>
 
